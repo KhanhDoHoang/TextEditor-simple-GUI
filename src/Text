@@ -15,6 +15,11 @@ import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 import javax.swing.filechooser.FileFilter;
 import javax.swing.filechooser.FileNameExtensionFilter;
+/**
+ *This program shows the simple GUI text editor having open, save, new, cut, copy and paste
+ *@author hoangd
+ */
+
 
 public class Editor extends JFrame{
 	private JTextArea textArea = new JTextArea(20, 60);
